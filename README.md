@@ -9,7 +9,7 @@ Add the stylesheet to your project and begin writing the HTML for your app:
 
 Documentation
 ---------------------
-Visit http://www.uptowncss.com for complete documentation and examples
+Visit http://www.webcatalyst.com/BC-AppCSS for complete documentation and examples
 
 Copyright & License
 ---------------------
