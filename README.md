@@ -5,11 +5,11 @@ BC-AppCSS is a semantic toolkit designed to help developers build apps for Adobe
 Getting Started
 ---------------------
 Add the stylesheet to your project and begin writing the HTML for your app:
-`<link rel="stylesheet" href="uptown.css">`
+`<link rel="stylesheet" href="/BC-AppCSS.css">`
 
 Documentation
 ---------------------
-Visit http://www.webcatalyst.com/BC-AppCSS for complete documentation and examples
+Visit http://www.webcatalyst.eu/BC-AppCSS for complete documentation and examples
 
 Copyright & License
 ---------------------
