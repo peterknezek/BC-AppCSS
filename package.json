@@ -1,5 +1,5 @@
 {
-  "name": "BC-AppCSS",
+  "name": "bc-appcss",
   "version": "1.0.0",
   "description": "An npm Package of CSS style for business Catalyst Application.",
   "main": "css/BC-AppCSS.css",
