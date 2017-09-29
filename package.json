@@ -1,0 +1,22 @@
+{
+  "name": "BC-AppCSS",
+  "version": "1.0.0",
+  "description": "An npm Package of CSS style for business Catalyst Application.",
+  "main": "css/BC-AppCSS.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcatalyst-eu/BC-AppCSS.git"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "Peter Knezek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webcatalyst-eu/BC-AppCSS/issues"
+  },
+  "homepage": "https://github.com/webcatalyst-eu/BC-AppCSS#readme"
+}

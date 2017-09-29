@@ -2,10 +2,14 @@
 
 BC-AppCSS is a semantic toolkit designed to help developers build apps for Adobe Business Catalyst's platform.
 
-Getting Started
+## Getting Started
 ---------------------
 Add the stylesheet to your project and begin writing the HTML for your app:
 `<link rel="stylesheet" href="/BC-AppCSS.css">`
+
+Install the module with:
+`npm install scss-shortcuts`
+
 
 Documentation
 ---------------------
