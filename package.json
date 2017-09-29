@@ -1,7 +1,7 @@
 {
   "name": "bc-appcss",
   "version": "1.0.0",
-  "description": "An npm Package of CSS style for business Catalyst Application.",
+  "description": "An npm Package of CSS style for Business Catalyst Application.",
   "main": "css/BC-AppCSS.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
