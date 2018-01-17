@@ -1,0 +1,84 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+  text-rendering: optimizelegibility;
+}
+body {
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  fill: currentcolor;
+  color: #333;
+  font: 12px/18px "Lucida Grande",Helvetica,Arial,Verdena,sans-serif;
+  font-weight: 400;
+  height: 100%;
+  min-height: 450px;
+  letter-spacing: initial;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  text-transform: initial;
+  text-rendering: optimizelegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+p {
+  margin-top: 0;
+  font-family: Myriad-Pro, myriad-pro-1, myriad-pro-2, Arial, Helvetica, sans-serif !important;
+  text-rendering: optimizelegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+em {
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 90%;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+a {
+  cursor: pointer;
+  color: $link-color;
+  text-decoration: $link-decoration;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+}
+svg, path {
+  fill: currentcolor;
+}
+/* ==================  HR ==================== */
+hr {
+  border-collapse: collapse;
+  border-top: 0.1rem solid #ebeef0;
+  border-width: 0.1rem 0 0;
+  margin: 0;
+}
+/* ==================  List style ==================== */
+ul {
+  list-style: outside none disc;
+}
+ol {
+  list-style: outside none decimal;
+}
+ol, ul {
+  margin-bottom: 0;
+  margin-left: 2rem;
+  margin-top: 0;
+  padding-left: 0;
+}
+ul ul, ul ol, ol ol, ol ul {
+  margin: 0 0 0 3rem;
+}
+
+/* ==================  H1 with hr ==================== */
+h1{
+  background: white url("/AdminConsole/static/images/hybrid/title-bg.png") repeat-x scroll left center !important;
+  color: #333 !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  margin-bottom: 18px !important;
+}
+h1 span{
+  background-color: white !important;
+  font-style: normal;
+  padding-right: 10px;
+}

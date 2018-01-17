@@ -1,0 +1,39 @@
+@import "variables";
+@import "code";
+@import "type";
+// @import "grid";
+@import "navbar";
+@import "form";
+@import "table";
+@import "note";
+@import "buttons";
+
+/* ==================  Custiom ==================== */
+iFrame {scrolling: 'no'}
+
+
+/*
+
+#container-body a{
+  font-size: 11px;
+  color: #1e86e3;
+  font-weight: bold;
+  text-decoration: none;
+}
+#container-body{
+padding: 20px 20px 16px 10px !important;
+clear: both;
+min-width: 730px !important;
+color: #333;
+font: 12px "Lucida Grande", Helvetica, Arial, Verdena, sans-serif;
+line-height: 18px;
+}
+
+
+.settingsgrid{
+    display: flex;
+}
+.settingsgrid > div{
+    flex: 1 1 auto;
+}
+*/

@@ -1,0 +1,93 @@
+/* ==================  Grid colums ==================== */
+main::after, .row::after, .cf {
+  clear: both;
+  content: "";
+  display: table;
+}
+.row, .column, .columns {
+  margin-bottom: 1.5rem;
+}
+* {
+}
+section {
+display: block;
+margin: 0 auto;
+max-width: 1036px;
+text-align: left;
+width: 100%;
+}
+section {
+align-items: stretch;
+display: flex;
+flex-direction: row;
+}
+section article {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+section article {
+  flex: 2 1 23rem;
+  flex-direction: row;
+}
+
+.full-width {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+}
+
+.column, .columns {
+  margin-bottom: 0;
+  margin-left: 2%;
+}
+.column:first-child, .column:only-child, .columns:first-child, .columns:only-child {
+  margin-left: 0;
+}
+.column.one, .column.one, .columns.one, .columns.one {
+  width: 8.16667%;
+}
+.column.two, .columns.two {
+  width: 16.3333%;
+}
+.column.three, .columns.three {
+  width: 24.5%;
+}
+.column.four, .columns.four {
+  width: 32.6667%;
+}
+.column.five, .columns.five {
+  width: 40.8333%;
+}
+.column.six, .columns.six {
+  width: 49%;
+}
+.column.seven, .columns.seven {
+  width: 57.1667%;
+}
+.column.eight, .columns.eight {
+  width: 65.3333%;
+}
+.column.nine, .columns.nine {
+  width: 73.5%;
+}
+.column.ten, .columns.ten {
+  width: 81.6667%;
+}
+.column.eleven, .columns.eleven {
+  width: 89.8333%;
+}
+.column.twelve, .columns.twelve {
+  margin-left: 0;
+  width: 100%;
+}
+.column.one-third, .columns.one-third {
+  width: 32.6667%;
+}
+.column.two-thirds, .columns.two-thirds {
+  width: 65.3333%;
+}
+.column.one-half, .columns.one-half {
+  width: 49%;
+}

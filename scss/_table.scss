@@ -1,0 +1,48 @@
+/* ==================  TABLE ==================== */
+
+table tr:nth-child(2n+1) {
+  background: #f2f2f2 none repeat scroll 0 0;
+}
+table {
+  border: 1px solid #dbdbdb !important;
+  font-size: 12px !important;
+  margin: 0 !important;
+  width: 100% !important;
+
+  a {
+    color: #1e86e3;
+    text-decoration: none;
+  }
+
+  td {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+
+table .rgHeader {
+  background: #dbdbdb none repeat scroll 0 0 !important;
+  color: #333333 !important;
+  font-size: 12px !important;
+  height: auto;
+  line-height: 1em;
+  padding: 6px 7px 8px !important;
+}
+table .rgHeader, .table .rgHeader a {
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+}
+table .rgRow td, table .rgAltRow td, table .rgEditRow td, table .rgFooter td {
+  height: 27px !important;
+  padding-bottom: 2px !important;
+  padding-top: 1px !important;
+  vertical-align: middle;
+}
+table .rgRow td, table .rgAltRow td, table .rgEditRow td, table .rgFooter td {
+  height: 27px !important;
+  padding-bottom: 2px !important;
+  padding-top: 1px !important;
+  vertical-align: middle;
+}

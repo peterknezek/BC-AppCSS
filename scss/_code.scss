@@ -1,0 +1,14 @@
+code {
+  background: #f1f1f1 none repeat scroll 0 0;
+  border: 0.1rem solid #e1e1e1;
+  border-radius: 0.4rem;
+  margin: 0 0.2rem;
+  padding: 0.2rem 0.5rem;
+  white-space: nowrap;
+}
+pre > code {
+  display: block;
+  margin: 0;
+  overflow: auto;
+  padding: 1rem 1.5rem;
+}
