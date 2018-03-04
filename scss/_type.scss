@@ -32,7 +32,8 @@ em {
   font-style: italic;
   margin-top: 0.5rem;
 }
-a {
+a,
+.link {
   cursor: pointer;
   color: $link-color;
   text-decoration: $link-decoration;
@@ -71,14 +72,19 @@ ul ul, ul ol, ol ol, ol ul {
 
 /* ==================  H1 with hr ==================== */
 h1{
-  background: white url("/AdminConsole/static/images/hybrid/title-bg.png") repeat-x scroll left center !important;
   color: #333 !important;
   font-size: 18px !important;
   font-weight: normal !important;
-  margin-bottom: 18px !important;
-}
-h1 span{
-  background-color: white !important;
-  font-style: normal;
-  padding-right: 10px;
+  margin-top: 2em !important;
+  margin-bottom: 1.5em !important;
+  
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  line-height: 0;
+  padding: 0;
+  
+  span {
+    background: #fff;
+    padding: 0 10px 0 0;
+  }
 }

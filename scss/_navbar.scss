@@ -30,25 +30,19 @@
       backface-visibility: #2996e3;
       position: relative;
       color: white;
+      text-shadow: 0 1px 1px #004b7c !important;
+      font-weight: bold;
       background: #2996e3;
       background: -moz-linear-gradient(top, #2996e3 0%, #387ed7 100%);
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0%, #2996e3),
-        color-stop(100%, #387ed7)
-      );
-      background: -webkit-linear-gradient(top, #2996e3 0%, #387ed7 100%);
-      background: -o-linear-gradient(top, #2996e3 0%, #387ed7 100%);
+      background: -webkit-linear-gradient(270deg,#2996e3 0,#387ed7);
       background: -ms-linear-gradient(top, #2996e3 0%, #387ed7 100%);
-      background: linear-gradient(top, #2996e3 0%, #387ed7 100%);
+      background: linear-gradient(to top, #2996e3 0%, #387ed7 100%);
+      background-image: -webkit-linear-gradient(270deg,rgb(41, 150, 227) 0,rgb(56, 126, 215));
       filter: progid:DXImageTransform.Microsoft.gradient(
           startColorstr="#2996e3",
           endColorstr="#387ed7",
           GradientType=0
         );
-      text-shadow: 0 1px 1px #004b7c !important;
     }
   }
 }

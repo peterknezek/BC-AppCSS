@@ -28,7 +28,7 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #479ccf !default;
+$blue:    #1E86E3;
 $red:     #dc3545 !default;
 $green:   #28a745 !default;
 
@@ -63,11 +63,49 @@ $theme-colors: map-merge((
   "dark":       $dark
 ), $theme-colors);
 
+
 // Links
 //
 // Style anchor elements.
 
 $link-color:                theme-color("primary") !default;
 $link-decoration:           none !default;
-$link-hover-color:          darken($link-color, 15%) !default;
-$link-hover-decoration:     underline !default;
+$link-hover-color:          $link-color;
+$link-hover-decoration:     none;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight:                normal !default;
+
+$btn-default-color:              #333 !default;
+$btn-default-bg:                 #fff !default;
+$btn-default-border:             #ccc !default;
+
+$btn-primary-color:              #fff !default;
+//$btn-primary-bg:                 $brand-primary !default;
+//$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+$btn-success-color:              #fff !default;
+//$btn-success-bg:                 $brand-success !default;
+//$btn-success-border:             darken($btn-success-bg, 5%) !default;
+
+$btn-info-color:                 #fff !default;
+$btn-info-bg:                    $brand-info !default;
+//$btn-info-border:                darken($btn-info-bg, 5%) !default;
+
+$btn-warning-color:              #fff !default;
+//$btn-warning-bg:                 $brand-warning !default;
+//$btn-warning-border:             darken($btn-warning-bg, 5%) !default;
+
+$btn-danger-color:               #fff !default;
+//$btn-danger-bg:                  $brand-danger !default;
+//$btn-danger-border:              darken($btn-danger-bg, 5%) !default;
+
+//$btn-link-disabled-color:        $gray-light !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         2px;
+$btn-border-radius-large:        2px;
+$btn-border-radius-small:        2px;

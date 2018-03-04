@@ -17,32 +17,26 @@ table {
   td {
     padding-left: 7px;
     padding-right: 7px;
+    vertical-align: middle !important;
   }
 }
 
-table .rgHeader {
+table th {
   background: #dbdbdb none repeat scroll 0 0 !important;
   color: #333333 !important;
   font-size: 12px !important;
   height: auto;
   line-height: 1em;
   padding: 6px 7px 8px !important;
+  vertical-align: middle;
 }
-table .rgHeader, .table .rgHeader a {
+table th, .table th a {
   color: #000;
   font-weight: bold;
   text-align: left;
   text-decoration: none;
 }
-table .rgRow td, table .rgAltRow td, table .rgEditRow td, table .rgFooter td {
+table tr td {
   height: 27px !important;
-  padding-bottom: 2px !important;
-  padding-top: 1px !important;
-  vertical-align: middle;
-}
-table .rgRow td, table .rgAltRow td, table .rgEditRow td, table .rgFooter td {
-  height: 27px !important;
-  padding-bottom: 2px !important;
-  padding-top: 1px !important;
   vertical-align: middle;
 }
